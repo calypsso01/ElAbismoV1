@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>lil minigame ◡̈</title>
+    <link rel="stylesheet" href="styles.css"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+Lao:wght@300;400&family=Roboto+Slab&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <script src="https://cdn.jsdelivr.net/npm/p5@1/lib/p5.min.js"></script>
+    <script src="https://unpkg.com/@free-side/audioworklet-polyfill/dist/audioworklet-polyfill.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/planck@latest/dist/planck.min.js"></script>
+    <script src="https://p5play.org/v3/p5play.js"></script>
+    
+    <script src="index.js" type="module"></script>
+
+    <main>
+
+      <div id="gameover">
+        <h1>GAME OVER</h1>
+        <h3 id="score"></h3>
+
+        <div id="game-info">
+          <form id="submit">
+            <label for="user-name">save your score</label><br>
+            <input type="text" id="user-name" name='name' placeholder="enter name" required>
+            <button id="submit-button">save!</button>
+          </form>
+        </div>
+
+        <div id="leaderboard">
+          <h3 id="lb">top players</h3>
+          <ol id="LB-list">
+            
+          </ol>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>

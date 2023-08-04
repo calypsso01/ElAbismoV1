@@ -1,0 +1,63 @@
+body {
+    margin: 0;
+    overflow: hidden;
+    vertical-align: middle;
+    display: flex;
+    justify-content: center;
+  }
+
+  main {
+    display: flex;
+    width: fit-content;
+    position: relative;
+  }
+
+  #gameover {
+    color: white;
+    background-color: black;
+    opacity: .6;
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    transition: opacity 1s;
+  }
+  h1 {
+    font-size: 45px;
+    font-family: 'Roboto Slab', serif;
+    text-: dashed;
+    color:rgb(255, 0, 0)
+  }
+  h3 {
+    font-family: 'Noto Serif Lao', serif;
+    color:rgb(102, 102, 250)
+  }
+  ol {
+    padding-left: 20px;
+    margin: none;
+  }
+  ol li {
+    padding: 5px;
+
+  }
+  #lb {
+    margin-top: 5px;
+    margin-bottom: 0px;
+    text-align: center;
+  }
+  #LB-list {
+    
+    margin-top: 0;
+  }
+  #leaderboard {
+    margin: 10px;
+
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  #game-info {
+    padding-bottom: 20px;
+  }
